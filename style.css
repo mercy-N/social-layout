@@ -1,0 +1,137 @@
+#button{
+    background: none;
+    border: 0;
+    color: black;
+    transition: all 0.4s linear;
+}
+#button:focus{
+    outline: #ffffff;
+}
+
+#button:hover{
+    color:grey;
+}
+
+#input {
+    opacity: 0;
+}
+
+h1 {
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+
+.fig {
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    text-align: left;
+    line-height: 1.4em;
+    background-color: rgb(5, 5, 5, 0.5);
+} 
+ 
+/* .fig img {
+    max-width: 100%;
+    vertical-align: top;
+    opacity: 0.85;
+ } */
+ #header {
+    margin: 0 auto;
+    display:block;
+    width: 100%;
+ }
+
+ .i {
+     height: 70vh;
+ }
+
+.caption {
+    width: 100%;
+    background-color: #141414;
+    padding: 25px;
+    position: relative;
+ }
+   
+ .caption:before {
+    position: absolute;
+    content: '';
+    bottom: 100%;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 55px 0 0 400px;
+    border-color: transparent transparent transparent #141414;
+ }
+ .caption h2,p{
+     color: #909090;
+ }
+  a {
+    padding: 5px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-size: 0.7em;
+    text-transform: uppercase;
+    margin: 10px 0;
+    display: inline-block;
+    opacity: 0.65;
+    width: 47%;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+ }
+ 
+ .info {
+    border-color: 1px solid blue;
+}
+ .like:hover {
+     color: red;
+     border: 1px solid red;
+     opacity: 1;
+ }
+
+.info:hover {
+     color: blue;
+     border: 1px solid blue;
+     opacity: 1;
+ }
+
+.profile {
+    border-radius: 50px;
+    position: absolute;
+    bottom: 100%;
+    left: 25px;
+    z-index: 1;
+    height: 100px;
+    width: 100px;
+    opacity: 1;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    margin: 0 0 3px;
+    font-weight: 300;
+}
+
+span {
+    display: block;
+    font-size: 10px;
+    color: blue;
+    opacity: 1;
+}
+p {
+    margin: 0 0 10px;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+     opacity: 0.8; 
+}
+
+@media only screen and (min-width: 768px) {
+    .profile {
+        height: 300px;
+        width: 300px;
+        border-radius: 150px;
+    }
+    span {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+}
